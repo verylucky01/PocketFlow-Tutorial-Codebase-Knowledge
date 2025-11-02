@@ -24,7 +24,6 @@ DEFAULT_INCLUDE_PATTERNS = {
     "*.c",
     "*.cc",
     "*.cu",
-    "*.cuh",
     "*.cpp",
     "*.h",
     "*.md",
@@ -110,7 +109,7 @@ def main():
         "-s",
         "--max-size",
         type=int,
-        default=100000,
+        default=10000,
         help="Maximum file size in bytes (default: 100000, about 100KB).",
     )
     # Add language parameter for multi-language support
