@@ -11,7 +11,7 @@ from dotenv import load_dotenv
 
 
 # 加载 .env 文件
-load_dotenv(dotenv_path=r"D:\Coding\Vibe-Working\code2tutorial\.env")
+load_dotenv(dotenv_path=r"D:\\Coding\\Vibe-Working\\code2tutorial\\.env")
 
 # Configure logging
 log_directory = os.getenv("LOG_DIR", "logs")
